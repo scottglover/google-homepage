@@ -1,20 +1,22 @@
 body {
 	text-align: center;
 	}
-
 nav {
+
+}
+.top_nav {
 	text-align: right;
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-right: 20px;
 
 }
-nav ul {
+ul {
 	list-style: none;
 	display: inline;
 }
 
-nav ul li {
+ul li {
 	display: inline-block;
 	font-family: sans-serif;
 	font-size: 13px;
@@ -72,8 +74,7 @@ input
   	bottom: 0;
   	left: 0;
   	background-color: #efefef;
-  	text-align: center;
-  	height: 100px;
+  	height: 85px;
 }
 
 .l_button, .r_button {
@@ -93,4 +94,20 @@ input
 		width: 150px;
 		border: none;
 
+}
+
+
+.l_bottom_nav {
+	float: left;
+	text-align: left;
+	padding-top: 55px;
+	word-spacing: 30px;
+}
+
+.r_bottom_nav {
+	float:right;
+	display: inline;
+	text-align: right;
+	padding-top: 55px;
+	
 }
