@@ -24,7 +24,10 @@ ul li {
 	padding-right: 10px;
 	vertical-align: middle;
 }
-
+.top_nav ul li a {
+	text-decoration: none;
+	color: #444;
+}
 .logo {
 
 	display: block;
